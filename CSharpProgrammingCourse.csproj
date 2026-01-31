@@ -7,4 +7,22 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Lecture10\" />
+      <Folder Include="Lecture11\" />
+      <Folder Include="Lecture12\" />
+      <Folder Include="Lecture13\" />
+      <Folder Include="Lecture14\" />
+      <Folder Include="Lecture15\" />
+      <Folder Include="Lecture16\" />
+      <Folder Include="Lecture2\" />
+      <Folder Include="Lecture3\" />
+      <Folder Include="Lecture4\" />
+      <Folder Include="Lecture5\" />
+      <Folder Include="Lecture6\" />
+      <Folder Include="Lecture7\" />
+      <Folder Include="Lecture8\" />
+      <Folder Include="Lecture9\" />
+    </ItemGroup>
+
 </Project>

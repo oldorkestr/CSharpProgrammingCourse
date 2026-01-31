@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using CSharpProgrammingCourse.Lecture1;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    static void Main(string[] args)
+    {
+        #region Lecture1
+        Lecture1.TypesDemo();
+        Lecture1.ArraysDemo();
+        Lecture1.AlgorithmsDemo();
+        #endregion
+    }
+}
