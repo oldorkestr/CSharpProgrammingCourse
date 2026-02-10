@@ -2,6 +2,13 @@ namespace CSharpProgrammingCourse.Lecture1;
 
 public static class Lecture1
 {
+    private static int _iter = 0;
+
+    public static int Iter
+    {
+        get { return _iter; }
+        set { _iter = value; }
+    }
     #region Types
     public static void TypesDemo()
     {
@@ -70,6 +77,14 @@ public static class Lecture1
         for (int i = 0; i < oneDimensional.Length; i++)
         {
             Console.WriteLine($"oneDimensional[{i}] = {oneDimensional[i]}");
+        }
+
+        Console.WriteLine("Iterating over array second approach:");
+        foreach (int element in oneDimensional)
+        {
+            Console.WriteLine($"oneDimensional [{Iter}] = {element}");
+            Console.WriteLine("iter = " + Iter + "\n");
+            Iter++;
         }
         Console.WriteLine();
 
