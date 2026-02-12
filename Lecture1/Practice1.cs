@@ -16,6 +16,8 @@ public class Practice1
     private double[] _oneDimentionalData;
     private double[,] _twoDimentionalData;
     
+    private const double normalConsumption = 100;
+    
     public double[] OneDimentionalData
     {
         get { return _oneDimentionalData; }
@@ -36,6 +38,17 @@ public class Practice1
         {
             Console.WriteLine(element);
         }
+
+        TwoDimentionalData = SecondDataEntry(daysCount);
+
+        for (int i = 0; i < TwoDimentionalData.GetLength(0); i++)
+        {
+            for (int j = 0; j < TwoDimentionalData.GetLength(1); j++)
+            {
+                Console.Write(TwoDimentionalData[i, j] + ", ");
+            }
+            Console.WriteLine();
+        }
     }
 
     public double[] DataEntry(int daysCount)
@@ -49,6 +62,19 @@ public class Practice1
         return data;
     }
 
+    public double[,] SecondDataEntry(int days)
+    {
+        double[,] data = new double[days,3];
+        for (int i = 0; i < days; i++)
+        {
+            data[i,0] = i+1;
+            data[i,1] = InputDouble();
+            data[i,2] = normalConsumption - data[i,1];
+        }
+        
+    return data;
+}
+
     static double InputDouble()
     {
         double value = -1;
@@ -59,6 +85,7 @@ public class Practice1
             if (value == 0 && stringValue != "0")
             {
                 Console.WriteLine("Please input double");
+                value = -1;
             }
             else if(stringValue == "0")
             {
