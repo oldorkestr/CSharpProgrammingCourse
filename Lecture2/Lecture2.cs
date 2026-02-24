@@ -27,6 +27,27 @@ class Person
         set { _experiance = value; }
     }
 
+    // public Person(string name, int age, int experiance)
+    // {
+    //     Name = name;
+    //     Age = age;
+    //     Experiance = experiance;
+    // }
+
+    public Person(Person other)
+    {
+        Name = other.Name;
+        Age = other.Age;
+        Experiance = other.Experiance;
+    }
+
+    public Person()
+    {
+        Name = "";
+        Age = 0;
+        Experiance = 0;
+    }
+
     public Person(string name, int age, int experiance)
     {
         Name = name;

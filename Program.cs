@@ -1,6 +1,6 @@
 ﻿using CSharpProgrammingCourse.Lecture1;
 using CSharpProgrammingCourse.Lecture2;
-
+using CSharpProgrammingCourse.Lecture3;
 class Program
 {
     static void Main(string[] args)
@@ -10,20 +10,15 @@ class Program
         //Lecture1.ArraysDemo();
         //Lecture1.AlgorithmsDemo();
         #endregion
-        #region Practice1
-
-        // Console.Write("Please, enter a days number:");
-        // int days = int.Parse(Console.ReadLine());
-        // Practice1 practice1Object = new Practice1(days);
-
-        #endregion
         
         #region Lecture2
-        Lecture2.DemoClassesAndStructs();
+        //Lecture2.DemoClassesAndStructs();
         #endregion
-        #region Practice2
         
-        
+        #region Lecture3
+
+        Lecture3.Test();
+
         #endregion
     }
 }
