@@ -41,7 +41,7 @@ public class AppleTree : Plant, IHarvestable
 
     public void Harvest()
     {
-        Console.WriteLine("🍏 Успіх: Зібрано кошик стиглих яблук!");
+        Console.WriteLine("Успіх: Зібрано кошик стиглих яблук!");
     }
 }
 
