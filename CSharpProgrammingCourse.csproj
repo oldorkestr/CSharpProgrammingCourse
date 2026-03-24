@@ -15,7 +15,6 @@
       <Folder Include="Lecture14\" />
       <Folder Include="Lecture15\" />
       <Folder Include="Lecture16\" />
-      <Folder Include="Lecture7\" />
       <Folder Include="Lecture8\" />
       <Folder Include="Lecture9\" />
     </ItemGroup>

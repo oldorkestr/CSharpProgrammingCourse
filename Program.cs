@@ -4,6 +4,7 @@ using CSharpProgrammingCourse.Lecture3;
 using CSharpProgrammingCourse.Lecture4;
 using CSharpProgrammingCourse.Lecture5;
 using CSharpProgrammingCourse.Lecture6;
+using CSharpProgrammingCourse.Lecture7;
 class Program
 {
     static void Main(string[] args)
@@ -38,7 +39,13 @@ class Program
         
         #region Lecture6
 
-        Lecture6.Demo6();
+        //Lecture6.Demo6();
+
+        #endregion
+
+        #region  Lecture7
+
+        Lecture7.Demo();
 
         #endregion
     }
